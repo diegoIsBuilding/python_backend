@@ -18,8 +18,12 @@ class Car:
     def honk(self):
             return 'Beep Boop'
         
+brand = input('Enter the brand name of your car: ')
+model = input('Enter the model of your car: ')
+color = input('Enter the color of your car: ')
         
-my_car = Car('Ferrari', 'F40', 'Red')
+        
+my_car = Car(brand, model, color)
 
 #Below are a bunch of objects create from the Car class
 print(my_car.brand)
